@@ -1,23 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
+import Welcome from './Components/Welcome';
+import Mission from './Components/Mission';
+import Services from './Components/Services';
+import FutureWorks from './Components/FutureWorks';
+import CompanyNews from './Components/CompanyNews';
+import Newsletter from './Components/Newsletter';
+import Footer from './Components/Footer';
+import FadeTransition from './Components/fade';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+      <Header />
+
+      <Welcome />
+      <FadeTransition>
+      <Mission />
+      </FadeTransition>
+      <Services />
+      <FutureWorks />
+      <CompanyNews />
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
