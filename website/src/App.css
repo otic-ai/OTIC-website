@@ -517,8 +517,8 @@ main {
   display: none;
 }
 .welcome {
-  height: 140px;
-  max-width: 55vh;
+  height: 160px;
+  max-width: 50vh;
   font-size: 35px;
 }
 .welcomebelow {
