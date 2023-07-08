@@ -79,7 +79,7 @@ const Header = () => {
             <li>Contact</li>
            
             <li><div style={{right: '0', display: 'inline'}}></div></li>
-            <li></li>
+            {user ? <li></li> : '' }
             <li>Get Started</li>
 
         </ul>
