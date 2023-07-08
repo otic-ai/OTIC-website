@@ -79,8 +79,9 @@ const Header = () => {
             <li>Contact</li>
            
             <li><div style={{right: '0', display: 'inline'}}></div></li>
-            <li>jhdshj</li>
+            <li></li>
             <li>Get Started</li>
+
         </ul>
        <div style={{height:'20px'}}></div>
         </nav>
