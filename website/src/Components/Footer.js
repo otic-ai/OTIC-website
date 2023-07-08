@@ -12,7 +12,6 @@ const Footer = () => {
   	 	<div class="row">
   	 		<div class="footer-col">
   	 			<h4>company</h4>
-  	 			
   	 				<li style={{color: 'white'}}>Please <strong><a a href="mailto:info@oticanalytics.com" style={{color: "orange", fontSize: "20px"}} >Email </a></strong>us to find out more.</li>
   	 				
   	 			
