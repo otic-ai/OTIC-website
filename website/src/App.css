@@ -517,9 +517,12 @@ main {
   display: none;
 }
 .welcome {
-  height: 150px;
-  max-width: 60vh;
-  
+  height: 120px;
+  max-width: 55vh;
+  font-size: 35px;
+}
+.welcomebelow {
+
 }
 .tagline {
   display: inline-block;
