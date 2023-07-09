@@ -93,7 +93,7 @@ const Header = () => {
         </div> 
         
        <div className='full-screen' style={{height:'20px'}}></div>
-       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={handleMenuToggle} style={{color: "orange", alignItems: "right",}} />
+       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={handleMenuToggle} style={{color: "orange", alignItems: "right", height:'70%'}} />
        <div style={{width:'60vw'}}></div>
        <img id="menu-toggle" src='favicon.ico' style={{height:'80%'}}></img>
        <div id="menu-toggle" style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}>Otic</div>
@@ -102,11 +102,14 @@ const Header = () => {
        
         </div>
         </nav>
-        <div id="menu-toggle"  className="dropdown">
-      {menuOpen && (
-        <div className="dropdown-content">
+      
+        </div>
+          <div id="menu-toggle"  >
+      {menuOpen ?
+        <div className='menu-drop' >
           {/* Dropdown content */}
-          <ul>
+          <ul style={{display:'flex', flexDirection:'column', position: 'static',marginBottom: '0px'}}>
+          <li><a className="nav_link">Home</a></li>
           <li><a className="nav_link">Home</a></li>
           <li><a className="nav_link">About Us</a></li>
           <li><a href="#contact" className="nav_link">Contact</a></li>
@@ -114,9 +117,8 @@ const Header = () => {
           
           </ul>
         </div>
-      )}
+      : ''}
     </div> 
-        </div>
     </header>
   )
 }
