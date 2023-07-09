@@ -12,6 +12,49 @@
   width: 100%;
   height: 100%;
 }
+.login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+}
+.login-popup a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.login-popup a svg {
+  margin-right: 8px;
+}
+
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  color: red;
+}
+
 .mission {
   display: block;
 }
@@ -261,6 +304,10 @@ main {
 .welcomeButtonsection {
 
 }
+.login-popup input {
+  width: 400px;
+  max-width: 50vw;
+}
 .dropdown {
   z-index: 6;
 }
@@ -382,10 +429,10 @@ main {
 	background-color: #ffffff;}
 .services-card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
   right: 30px;
-  margin-left: 40px;
+  margin-left: 60px;
   margin-bottom: 20px;
 }
 .services-card-content {
@@ -393,6 +440,7 @@ main {
   
   color: white;
   max-width: 90vw;
+  
   max-height: 70vh;
   border: 1px ;
   background-color: rgb(30, 30, 131);
@@ -503,6 +551,7 @@ main {
   color: black;
   margin-left: 20px;
   max-width: 100%;
+  
 }
 .writer {
   width: 80px; /* Set the desired width */
@@ -534,7 +583,7 @@ main {
 }
 .company .plates .bodys {
   border-radius: 8px;
-  width: 369px;
+  
   color: black;
   
   
@@ -662,4 +711,17 @@ main {
 .mission {
   display: none;
 }
+.login-popup {
+  
+  top: 40%;
+  left: 50%;
+  font-size: 3.0rem;
+  width: 90%;
+}
+.login-popup input {
+  width: 300px;
+ 
+  max-width: 80vw;
+}
+
 }

@@ -1,9 +1,11 @@
 import React, { useState, useEffect }  from 'react'
-
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { onAuthStateChanged } from "firebase/auth";
 import { GoogleAuthProvider, getAuth, signInWithPopup,signInWithEmailAndPassword, signOut } from 'firebase/auth';
+import LoginPopup from './Login';
+
+
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -29,7 +31,16 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [user, setUser] = useState(false);
   const [image, setImage] = useState(false);
- 
+  const [showLogin, setShowLogin] = useState(false);
+
+  const handleLoginClick = () => {
+    setShowLogin(true);
+  };
+
+  const handleCloseLogin = () => {
+    setShowLogin(false);
+  };
+
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
@@ -82,7 +93,7 @@ const Header = () => {
             <li><a href="#mission" className="nav_link">About Us</a></li>
             <li><a href="#services" className="nav_link">Services</a></li>
             <li><a href="#contact" className="nav_link">Contact</a></li>
-            {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
+            {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={handleLoginClick} href="#"  className="nav_link">Login </a></li> }
            
           
         </ul>
@@ -94,7 +105,7 @@ const Header = () => {
         </div> 
         
        <div className='full-screen' style={{height:'20px'}}></div>
-       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={handleMenuToggle} style={{color: "orange", alignItems: "right", height:'70%'}} />
+       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={googleSignIn} style={{color: "orange", alignItems: "right", height:'70%'}} />
        <div style={{width:'60vw'}}></div>
        <img id="menu-toggle" src='favicon.ico' style={{height:'80%'}}></img>
        <div id="menu-toggle" style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}>Otic</div>
@@ -122,6 +133,7 @@ const Header = () => {
         </div>
       : ''}
     </div> 
+    {showLogin && <LoginPopup onClose={handleCloseLogin} />}
     </header>
   )
 }
