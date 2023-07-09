@@ -5,7 +5,7 @@ const CompanyNews = () => {
     <div className='company'>
       <div style={{height:'15px'}}></div>
         <div className='title'>Company News & Updates Read All Related Blog </div>
-   <div className='body'>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</div>
+   <div className='body' style={{maxWidth:'80vw'}}>Our purpose is to deliver excellence in service and execution Our purpose is to deliver excellence in service and Our purpose is to deliver excellence.</div>
     <div style={{height:'80px'}}></div>
     <div className='plates'>
       <div className='bodys'>
