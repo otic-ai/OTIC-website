@@ -15,6 +15,64 @@
 #menu-toggle {
   display: none;
 }
+.data {
+  background-color: whitesmoke;
+  max-width: 100vw;
+  top: 20px;
+  
+}
+.data .title {
+ 
+  margin-left: 5vw;
+  font-weight: 600;
+  font-size: 2.6rem;
+  font-style: normal;
+    text-transform: none;
+    color: #000;
+    line-height: 1.05;
+  font-family: Graphik,Arial,system-ui,-apple-system,blinkmacsystemfont,Segoe UI,roboto,ubuntu,Helvetica Neue,oxygen,cantarell,sans-serif;
+}
+.data .sub-title {
+  line-height: 1.6;
+    text-transform: none;
+    margin-left: 5vw;
+    font-size: 1.0rem;
+    max-width: 60vw;
+}
+.data .card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  right: 0px;
+  margin-left: 5vw;
+  max-width: 80vw;
+  margin-bottom: 20px;
+}
+.data .card .content {
+  border-radius: 8px;
+  
+  color: black;
+  max-width: 90vw;
+  max-height: 70vh;
+  border: 1px ;
+  
+  
+  
+}
+.percentage {
+  font-size: 4.2rem;
+    line-height: 1em;
+    border-right: 20px #040458;
+}
+.percentag {
+  border-width: 0;
+  padding-bottom: 0.1rem;
+  border-color: currentcolor #040458 #040458;
+  border-bottom: 4px solid #040458;
+}
+.data .under {
+  font-size: 1.2 rem;
+}
 #menu-toggle li {
   margin-bottom: 0px;
   border: 0.5px solid whitesmoke
@@ -165,7 +223,7 @@ main {
  width: 614px;
  height: 109px;
  font-weight: 600;
- font-size: 40px;
+ font-size: 2.5rem;
  line-height: 50px;
  position: relative;
 }
@@ -588,6 +646,11 @@ main {
 }
 * {
  
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.data .sub-title {
+  
+    max-width: 90vw;
 }
 }

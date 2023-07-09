@@ -9,6 +9,8 @@ import CompanyNews from './Components/CompanyNews';
 import Newsletter from './Components/Newsletter';
 import Footer from './Components/Footer';
 import FadeTransition from './Components/fade';
+import PercentageCounter from './Components/increase';
+import Data from './Components/data';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <Header  />
 
       <Welcome />
+      <Data />
       <FadeTransition>
       <Mission  />
       </FadeTransition>
@@ -25,6 +28,8 @@ function App() {
       <CompanyNews />
       <Newsletter  />
       <Footer />
+     
+
     </div>
   );
 }
