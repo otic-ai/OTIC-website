@@ -2,6 +2,10 @@ import React from 'react'
 import FadeTransition from './fade'
 
 const Welcome = () => {
+  const scrollToSection = () => {
+    const section = document.getElementById('services');
+    section.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <section id='home'>
     <main>
@@ -12,7 +16,7 @@ const Welcome = () => {
 
     <div className='welcomebelow'>Ignite your business with unparrelled AI-powered Transformation and Data-Driven Excellence</div>
   <div className='welcomeButtonsection'>
-   <button className='welcomeButton'>Get Started</button>
+   <button onClick={scrollToSection} className='welcomeButton'>Get Started</button>
    </div>
        </div>  
        </FadeTransition>   
@@ -21,13 +25,13 @@ const Welcome = () => {
    </div>
    <div className='tagline' style={{position: 'relative'}}><div className='tagline-text '>
          
-         <div className='flex'><div className='top'>hggfgfgfg</div>
+         <div className='flex'>
          <FadeTransition>
        <div className='welcome'>Unlocking the Potential of Intelligent Technology</div>
 
     <div className='welcomebelow'>Ignite your business with unparrelled AI-powered Transformation and Data-Driven Excellence</div>
   <div className='welcomeButtonsection'>
-   <button  className='welcomeButton'>Get Started</button>
+   <button onClick={scrollToSection} href='#services'  className='welcomeButton'>Get Started</button>
    </div>
    </FadeTransition>
        </div> 
