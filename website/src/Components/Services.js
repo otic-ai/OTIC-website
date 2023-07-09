@@ -10,7 +10,7 @@ const Services = () => {
         <div className='services-card'>
             <div className='services-card-content' >
               <img src='robots.png'></img>
-              <div style={{height:'20px'}}></div>
+              
               <div className='services-card-content-title'>AI Strategy and Roadmap Development</div>
           <div style={{height:'20px'}}></div>
            <div className='services-card-content-div'>
@@ -20,7 +20,7 @@ const Services = () => {
             </div>
             <div className='services-card-content' >
               <img src='robots.png'></img>
-              <div style={{height:'20px'}}></div>
+             
               <div className='services-card-content-title'>Responsible AI Consulting</div>
           <div style={{height:'20px'}}></div>
            <div className='services-card-content-div'>
@@ -31,7 +31,7 @@ const Services = () => {
             </div>
             <div className='services-card-content' >
               <img src='robots.png'></img>
-              <div style={{height:'20px'}}></div>
+             
               <div className='services-card-content-title'>Advanced Analytics and Predictive Modeling</div>
           <div style={{height:'20px'}}></div>
            <div className='services-card-content-div'>
