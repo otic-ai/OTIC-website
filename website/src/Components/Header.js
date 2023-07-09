@@ -78,12 +78,13 @@ const Header = () => {
         <li  style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}><img  src='favicon.ico' style={{height: '30px', marginBottom: '0px'}}></img>
         Otic</li> 
         <li style={{width:'90vw'}}></li>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <li><a href="#home" className="nav_link">Home</a></li>
+            <li><a href="#mission" className="nav_link">About Us</a></li>
+            <li><a href="#services" className="nav_link">Services</a></li>
+            <li><a href="#contact" className="nav_link">Contact</a></li>
             {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
-         
+           
+          
         </ul>
         <div style={{width: '100vw'}}></div>
        <div className='full-screen' >
