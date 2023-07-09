@@ -2,6 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
+    <section id='services' >
     <div className='services'>
         <div style={{height: '20px'}}></div>
         <div className='services-header'>Services</div>
@@ -43,6 +44,7 @@ const Services = () => {
         
         
     </div>
+    </section>
   )
 }
 

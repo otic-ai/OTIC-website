@@ -110,8 +110,10 @@ const Header = () => {
           {/* Dropdown content */}
           <ul style={{display:'flex', flexDirection:'column', position: 'static',marginBottom: '0px'}}>
           <li><a className="nav_link">Home</a></li>
-          <li><a className="nav_link">Home</a></li>
-          <li><a className="nav_link">About Us</a></li>
+          <li><a href="#home" className="nav_link">Home</a></li>
+          <li><a href="#mission" className="nav_link">About Us</a></li>
+          <li><a href="#services" className="nav_link">Services</a></li>
+        
           <li><a href="#contact" className="nav_link">Contact</a></li>
           {user ? <li><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
           

@@ -6,6 +6,7 @@ import { faFacebook, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-
 const Footer = () => {
 
   return (
+	<section id='contact'>
     <div className="contactus">
     <footer class="footer">
   	 <div class="container">
@@ -32,6 +33,7 @@ const Footer = () => {
   	 </div>
   </footer>
     </div>
+	</section>
   );
 }
 

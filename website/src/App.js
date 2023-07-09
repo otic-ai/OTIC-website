@@ -14,16 +14,16 @@ function App() {
   return (
     <div >
 
-      <Header />
+      <Header  />
 
       <Welcome />
       <FadeTransition>
-      <Mission />
+      <Mission  />
       </FadeTransition>
-      <Services />
+      <Services  />
       <FutureWorks />
       <CompanyNews />
-      <Newsletter />
+      <Newsletter  />
       <Footer />
     </div>
   );

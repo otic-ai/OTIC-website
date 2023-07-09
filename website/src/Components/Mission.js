@@ -2,6 +2,7 @@ import React from 'react'
 
 const Mission = () => {
   return (
+    <setion id='mission'>
     <div className='mission'>
         <img src="mission.png"></img>
         <div className='mission-column'>
@@ -18,6 +19,7 @@ const Mission = () => {
         </div>
        
     </div>
+    </setion>
   )
 }
 
