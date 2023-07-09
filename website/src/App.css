@@ -504,7 +504,10 @@ main {
   .footer-col{
     width: 100%;
 }
-
+.header {
+  width: 100vw;
+  left: 0px;
+}
 .company .plates .bodys {
   width: 100vw;
   margin-right: 20px;
@@ -518,7 +521,7 @@ main {
 
  }
  .main {
-  width: 110vw;
+  width: 100vw;
  }
  .mission-column {  
   
