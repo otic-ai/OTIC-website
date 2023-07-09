@@ -70,21 +70,52 @@ const Header = () => {
   return (
     <header>
       <div>
-        <nav className='header'>
-          <div style={{height:'10px'}}></div>
-        <ul>
+        
+        <nav className='header' >
+        <ul className='full-screen'>
+       
+        <div style={{height:'5px', width:'10vw'}}></div>
+        <li  style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}><img  src='favicon.ico' style={{height: '30px', marginBottom: '0px'}}></img>
+        Otic</li> 
+        <li style={{width:'90vw'}}></li>
             <li>Home</li>
             <li>About Us</li>
             <li>Services</li>
             <li>Contact</li>
-           
-            <li><div style={{right: '0', display: 'inline'}}></div></li>
-            {user ? <li></li> : '' }
-            <li>Get Started</li>
-
+            {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
+         
         </ul>
-       <div style={{height:'20px'}}></div>
+        <div style={{width: '100vw'}}></div>
+       <div className='full-screen' >
+         
+            {user ?  <img alt='Profile picture' src={image} style={{width: "40px", borderRadius: '50%', bottom:'0px'}}></img>: '' }
+
+        </div> 
+        
+       <div className='full-screen' style={{height:'20px'}}></div>
+       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={handleMenuToggle} style={{color: "orange", alignItems: "right",}} />
+       <div style={{width:'60vw'}}></div>
+       <img id="menu-toggle" src='favicon.ico' style={{height:'80%'}}></img>
+       <div id="menu-toggle" style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}>Otic</div>
+       <div style={{width:'60vw'}}></div>
+       {user ?  <img alt='Profile picture' id="menu-toggle"  src={image} style={{width: "50px", borderRadius: '50%', marginleft:'0px'}}></img>: '' }
+       
+        </div>
         </nav>
+        <div id="menu-toggle"  className="dropdown">
+      {menuOpen && (
+        <div className="dropdown-content">
+          {/* Dropdown content */}
+          <ul>
+          <li><a className="nav_link">Home</a></li>
+          <li><a className="nav_link">About Us</a></li>
+          <li><a href="#contact" className="nav_link">Contact</a></li>
+          {user ? <li><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
+          
+          </ul>
+        </div>
+      )}
+    </div> 
         </div>
     </header>
   )
