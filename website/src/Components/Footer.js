@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faLinkedin, faTwitter, faYoutube, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
 
@@ -25,7 +25,7 @@ const Footer = () => {
 				   
   	 				<a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
   	 				<a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
-  	 				<a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
+  	 				<a href="#"><FontAwesomeIcon icon={faWhatsapp} /></a>
   	 				<a href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
   	 			</div>
   	 		</div>
