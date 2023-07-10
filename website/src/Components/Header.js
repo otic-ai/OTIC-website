@@ -93,7 +93,12 @@ const Header = () => {
             <li><a href="#mission" className="nav_link">About Us</a></li>
             <li><a href="#services" className="nav_link">Services</a></li>
             <li><a href="#contact" className="nav_link">Contact</a></li>
+<<<<<<< HEAD
             {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={handleLoginClick} href="#"  className="nav_link">Login </a></li> }
+=======
+            {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
+           
+>>>>>>> 91a71ad7e7755c8988746cb9599c8b1a63371703
           
         </ul>
         <div style={{width: '100vw'}}></div>
@@ -104,7 +109,7 @@ const Header = () => {
         </div> 
         
        <div className='full-screen' style={{height:'20px'}}></div>
-       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={googleSignIn} style={{color: "orange", alignItems: "right", height:'70%'}} />
+       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={handleMenuToggle} style={{color: "orange", alignItems: "right", height:'70%'}} />
        <div style={{width:'60vw'}}></div>
        <img id="menu-toggle" src='favicon.ico' style={{height:'80%'}}></img>
        <div id="menu-toggle" style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}>Otic</div>
