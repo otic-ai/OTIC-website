@@ -11,12 +11,13 @@ import Footer from './Components/Footer';
 import FadeTransition from './Components/fade';
 import PercentageCounter from './Components/increase';
 import Data from './Components/data';
+import Navbar from './Components/navbar';
 
 function App() {
   return (
     <div >
 
-      <Header  />
+      <Navbar  />
 
       <Welcome />
       <Data />

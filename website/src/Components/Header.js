@@ -94,7 +94,6 @@ const Header = () => {
             <li><a href="#services" className="nav_link">Services</a></li>
             <li><a href="#contact" className="nav_link">Contact</a></li>
             {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={handleLoginClick} href="#"  className="nav_link">Login </a></li> }
-           
           
         </ul>
         <div style={{width: '100vw'}}></div>

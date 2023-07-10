@@ -17,10 +17,10 @@ const CompanyNews = () => {
       SCB wanted to be a pioneer amongst its peers and set out on an ongoing, multi-year transformation journey to jumpstart the business. At the heart of the project was the desire to use a constant stream of data-derived insights to reinvent its approach and customer experience.</div>
     <div style={{height:'20px'}}></div>
      <div style={{display: 'flex'}}>
-      <img  className="writer" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXmxN75xiNF2nL4MwA3oKdxfy-AuyRzoES0T0_vYa&s'
+      <img  className="writer" src='nesta-1 (1).jpeg'
       ></img>
       <div style={{width: '10px'}}></div>
-      <div className='news-anchor'>By John Kraifh
+      <div className='news-anchor'>By Nesta Paul
         <div className='news-date'> 5 January 2023</div>
       </div>
      </div>
@@ -38,10 +38,10 @@ With so much money at stake and the difficulty in getting quick answers, increas
      </div>
     <div style={{height:'20px'}}></div>
      <div style={{display: 'flex'}}>
-      <img  className="writer" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXmxN75xiNF2nL4MwA3oKdxfy-AuyRzoES0T0_vYa&s'
+      <img  className="writer" src='nesta-1 (1).jpeg'
       ></img>
       <div style={{width: '10px'}}></div>
-      <div className='news-anchor'>By John Kraifh
+      <div className='news-anchor'>By Nesta Paul
         <div className='news-date'> 5 January 2023</div>
       </div>
      </div>

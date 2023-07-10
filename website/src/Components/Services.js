@@ -26,7 +26,7 @@ const Services = () => {
            <div className='services-card-content-div'>
            Our consultants help organizations develop AI governance frameworks, implement ethical guidelines, and address issues of bias, fairness, and privacy. 
             </div>
-            <div style={{height: '50px'}}></div>
+           
             <div className='services-card-content-discover'><a href="#contact" className="nav_link" style={{color:'blue', fontSize:'1.2rem'}}>Discover More</a> </div>
             </div>
             <div className='services-card-content' >
@@ -37,7 +37,7 @@ const Services = () => {
            <div className='services-card-content-div'>
            Our team of data scientists embarks on an exhilarating expedition through your data, unearthing invaluable insights that become the bedrock of your decision-making process. 
            </div>
-            <div style={{height: '50px'}}></div>
+      
             <div className='services-card-content-discover'><a href="#contact" className="nav_link" style={{color:'blue', fontSize:'1.2rem'}}>Discover More</a> </div>
             </div>
             <div className='services-card-content' >

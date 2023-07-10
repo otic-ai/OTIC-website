@@ -166,7 +166,7 @@
   
 }
 
- ul li{
+ .ul li{
   border-bottom: 10px solid white;
   padding: 10px;
  
@@ -206,7 +206,7 @@ a {
 color: black;
 }
 
-li {
+.li {
   list-style-type: none;
   display: inline;
   white-space: nowrap;
@@ -226,7 +226,7 @@ li {
   height: Hug(28px);
   background-color: #E6E6FF;
 }
-ul {
+.ul {
   margin-bottom: 30px;
   width: 100vw;
 }
@@ -246,7 +246,8 @@ ul {
 background-color: white;
 width: 100vw;
 overflow: hidden;
-max-height: 50px;
+
+height: 10vh;
 display: flex;
 flex-direction: row;
 border: 0.5px solid whitesmoke
@@ -452,7 +453,7 @@ main {
  font-size: 1.5rem;
 }
 .services-card-content-div {
-  color:#767676;
+  color: white;
   margin-left: 6%
  }
 
@@ -572,8 +573,8 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   position: relative;
   gap: 30px;
-  right: 30px;
-  margin-left: 100px;
+  right: 20px;
+  margin-left: 20px;
   max-width: 100vw;
   
   margin-bottom: 20px;
@@ -618,7 +619,11 @@ main {
 .header {
   width: 100vw;
   left: 0px;
+  max-height: 50px;
 }
+
+
+
 .company .plates {
   margin-left: 40px;
 }
