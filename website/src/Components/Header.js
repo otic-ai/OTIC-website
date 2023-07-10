@@ -105,7 +105,7 @@ const Header = () => {
         </div> 
         
        <div className='full-screen' style={{height:'20px'}}></div>
-       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={googleSignIn} style={{color: "orange", alignItems: "right", height:'70%'}} />
+       <div id="menu-toggle"  style={{display: 'flex', marginRight: '20px'}} ><img src={menuOpen ? 'times.svg' : 'bars.svg'} alt="timesicon" id="menu-toggle" onClick={handleMenuToggle} style={{color: "orange", alignItems: "right", height:'70%'}} />
        <div style={{width:'60vw'}}></div>
        <img id="menu-toggle" src='favicon.ico' style={{height:'80%'}}></img>
        <div id="menu-toggle" style={{fontWeight: 'bold', color:'#040458', fontSize:'32px'}}>Otic</div>
