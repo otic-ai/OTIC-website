@@ -93,12 +93,7 @@ const Header = () => {
             <li><a href="#mission" className="nav_link">About Us</a></li>
             <li><a href="#services" className="nav_link">Services</a></li>
             <li><a href="#contact" className="nav_link">Contact</a></li>
-<<<<<<< HEAD
             {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={handleLoginClick} href="#"  className="nav_link">Login </a></li> }
-=======
-            {user ? <li style={{marginLeft:'0px'}}><a onClick={Logout} href="#" className="nav_link">Logout</a></li> : <li><a onClick={googleSignIn} href="#"  className="nav_link">Login </a></li> }
-           
->>>>>>> 91a71ad7e7755c8988746cb9599c8b1a63371703
           
         </ul>
         <div style={{width: '100vw'}}></div>
