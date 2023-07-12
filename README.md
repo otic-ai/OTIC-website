@@ -1,17 +1,70 @@
-# OTIC
-Introduction:
+# Getting Started with Create React App
 
-Welcome to OTIC Analytics, a leading consultancy at the forefront of financial predictive modeling empowered by machine learning and artificial intelligence (AI). We specialize in providing cutting-edge solutions for banks, investment firms, insurance companies, and other financial institutions in Uganda. Through the integration of advanced analytics and AI technologies, we empower our clients to gain actionable insights, mitigate risks, and optimize their portfolios for sustained growth and success.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-In today's rapidly evolving financial landscape, accurate predictions and data-driven decision-making are paramount. At OTIC Analytics, we harness the power of machine learning and AI algorithms to unlock the true potential of financial data. Our expertise lies in developing sophisticated predictive models that analyze historical data, identify patterns, and forecast future outcomes with precision.
+## Available Scripts
 
-By leveraging the latest advancements in machine learning and AI, we enable our clients to enhance their financial predictive modeling capabilities, resulting in improved accuracy, better risk assessment, and informed strategic planning. Our solutions cater to a wide range of applications, including cash flow forecasting, customer payment predictions, credit risk management, fraud detection, and portfolio optimization.
+In the project directory, you can run:
 
-At OTIC Analytics, we understand that each client has unique needs and challenges. Therefore, we take a tailored approach to our services, working closely with our clients to understand their specific requirements and objectives. Our team of seasoned data scientists and financial experts collaborates closely with you to design customized solutions that align with your business goals.
+### `npm start`
 
-When you partner with OTIC Analytics, you gain access to a wealth of knowledge and expertise in the fields of financial predictive modeling, machine learning, and AI. We are committed to delivering actionable insights that drive your organization's growth, profitability, and competitive advantage in the dynamic financial landscape of Uganda.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Thank you for considering OTIC Analytics as your trusted partner in harnessing the power of financial predictive modeling through machine learning and AI. Together, we can unlock the true potential of your data and transform it into a strategic asset that drives success in the financial industry.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Let's embark on this exciting journey of data-driven insights and innovation. Contact us today to explore how OTIC Analytics can propel your organization forward.
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
