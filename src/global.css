@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+  --font-space-grotesk: "Space Grotesk";
+  --font-spline-sans: "Spline Sans";
+
+  /* font sizes */
+  --font-size-mid: 1.06rem;
+  --font-size-13xl: 2rem;
+  --font-size-xl: 1.25rem;
+  --font-size-3xl: 1.38rem;
+  --font-size-3xs: 0.63rem;
+  --font-size-xs: 0.75rem;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.88rem;
+  --font-size-lg: 1.13rem;
+  --font-size-mini: 0.94rem;
+  --font-size-17xl: 2.25rem;
+
+  /* Colors */
+  --color-blue: #1f12fd;
+  --color-lavender-100: #e7e5ff;
+  --color-ghostwhite: #f6f6ff;
+  --color-gray-100: #767676;
+  --color-gray-200: rgba(128, 119, 119, 0.5);
+  --color-white: #fff;
+  --color-orange: #faa51a;
+  --color-whitesmoke: #f6f6f6;
+  --color-black: #000;
+  --color-steelblue: #497696;
+
+  /* Gaps */
+  --gap-6xl-5: 1.59rem;
+  --gap-sm: 0.88rem;
+  --gap-9xs-2: 0.2rem;
+
+  /* Paddings */
+  --padding-3xs: 0.63rem;
+  --padding-11xs: 0.13rem;
+  --padding-8xs: 0.31rem;
+  --padding-lgi-6: 1.23rem;
+  --padding-6xs: 0.44rem;
+  --padding-xl: 1.25rem;
+  --padding-12xs-4: 0.03rem;
+
+  /* border radiuses */
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --shadow-xl: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0px 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
