@@ -1,37 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Components/Header';
-import Welcome from './Components/Welcome';
-import Mission from './Components/Mission';
-import Services from './Components/Services';
-import FutureWorks from './Components/FutureWorks';
-import CompanyNews from './Components/CompanyNews';
-import Newsletter from './Components/Newsletter';
-import Footer from './Components/Footer';
-import FadeTransition from './Components/fade';
-import PercentageCounter from './Components/increase';
-import Data from './Components/data';
-import Navbar from './Components/navbar';
+import "./App.css";
+import Header from "./components/common/header/Header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import About from "./components/about/About";
+import CourseHome from "./components/allcourses/CourseHome";
+import Team from "./components/team/Team";
+import Pricing from "./components/pricing/Pricing";
+import Blog from "./components/blog/Blog";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/common/footer/Footer";
+import Home from "./components/home/Home";
 
 function App() {
   return (
-    <div >
-
-      <Navbar  />
-
-      <Welcome />
-      <Data />
-      <FadeTransition>
-      <Mission  />
-      </FadeTransition>
-      <Services  />
-      <FutureWorks />
-      <CompanyNews />
-      <Newsletter  />
-      <Footer />
-     
-
-    </div>
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/courses" element={<CourseHome />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/pricing" element={<Pricing />} />
+          <Route path="/journal" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
   );
 }
 
