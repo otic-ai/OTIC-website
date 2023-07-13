@@ -45,7 +45,25 @@ const Team = () => {
            <div style={{height:'0.5rem'}}></div>
       </div>  
         </div>  
-      
+        <div className='content'>   
+      <div style={{maxWidth:'85%',fontSize:'0.825rem',fontWeight:'400', marginLeft:'1.5rem' }}>
+        <img style={{marginLeft:'10%'}} src='soprano.png' ></img>
+        <div style={{height:'20px'}}></div>
+       <div style={{fontSize:'0.95rem', fontWeight:'500'}}>Kirabo Calvin  </div>
+       <div style={{height:'10px'}}></div>
+       Software & AI Engineer
+       <div style={{height:'1.0rem'}}></div>
+       <div class="social-links" style={{display:'flex', flexDirection:'row'}}>
+       <div style={{width:'1.5rem'}}></div>
+  	 				<a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:'#999999',}} /></a>
+  	 				<div style={{width:'0.5rem'}}></div>
+            <a href="#"><FontAwesomeIcon icon={faTwitter}  style={{color:'#999999'}}  /></a>
+  	 				<div style={{width:'0.5rem'}}></div>
+  	 				<a href="#"><FontAwesomeIcon icon={faLinkedin}  style={{color:'#999999'}}  /></a>
+  	 			</div>
+           <div style={{height:'0.5rem'}}></div>
+      </div>  
+        </div>  
         <div className='content'>   
       <div style={{maxWidth:'85%',fontSize:'0.825rem',fontWeight:'400', marginLeft:'1.5rem' }}>
         <img style={{marginLeft:'10%'}} src='mark.png' ></img>
@@ -141,7 +159,45 @@ const Team = () => {
   	 			</div>
            <div style={{height:'0.5rem'}}></div>
       </div>  
-        </div>               
+        </div>  
+        <div className='content'>   
+      <div style={{maxWidth:'85%',fontSize:'0.825rem',fontWeight:'400', marginLeft:'1.5rem' }}>
+        <img style={{marginLeft:'10%'}} src='richard.png' ></img>
+        <div style={{height:'20px'}}></div>
+       <div style={{fontSize:'0.95rem', fontWeight:'500'}}>Richard Mugisha   </div>
+       <div style={{height:'10px'}}></div>
+       Database Administrator
+       <div style={{height:'1.0rem'}}></div>
+       <div class="social-links" style={{display:'flex', flexDirection:'row'}}>
+       <div style={{width:'1.5rem'}}></div>
+  	 				<a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:'#999999',}} /></a>
+  	 				<div style={{width:'0.5rem'}}></div>
+            <a href="#"><FontAwesomeIcon icon={faTwitter}  style={{color:'#999999'}}  /></a>
+  	 				<div style={{width:'0.5rem'}}></div>
+  	 				<a href="#"><FontAwesomeIcon icon={faLinkedin}  style={{color:'#999999'}}  /></a>
+  	 			</div>
+           <div style={{height:'0.5rem'}}></div>
+      </div>  
+        </div>    
+        <div className='content'>   
+      <div style={{maxWidth:'85%',fontSize:'0.825rem',fontWeight:'400', marginLeft:'1.5rem' }}>
+        <img style={{marginLeft:'10%'}} src='ben.png' ></img>
+        <div style={{height:'20px'}}></div>
+       <div style={{fontSize:'0.95rem', fontWeight:'500'}}>Ben Nakireza   </div>
+       <div style={{height:'10px'}}></div>
+       Business Development Manager
+       <div style={{height:'1.0rem'}}></div>
+       <div class="social-links" style={{display:'flex', flexDirection:'row'}}>
+       <div style={{width:'1.5rem'}}></div>
+  	 				<a href="#"><FontAwesomeIcon icon={faFacebook} style={{color:'#999999',}} /></a>
+  	 				<div style={{width:'0.5rem'}}></div>
+            <a href="#"><FontAwesomeIcon icon={faTwitter}  style={{color:'#999999'}}  /></a>
+  	 				<div style={{width:'0.5rem'}}></div>
+  	 				<a href="#"><FontAwesomeIcon icon={faLinkedin}  style={{color:'#999999'}}  /></a>
+  	 			</div>
+           <div style={{height:'0.5rem'}}></div>
+      </div>  
+        </div>                           
        </div>
     </section>
   )
