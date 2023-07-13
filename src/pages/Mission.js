@@ -23,7 +23,7 @@ const Mission = () => {
                    
                       Mission Is To Bring The Power  Of  Al  To  Every  Business
                   
-                    <div style={{height:'8vh'}}></div>
+                    <div style={{height:'3vh'}}></div>
                     <div className="p">
                 <div className="at-otic-we" style={{color:'grey', flexDirection:'column'}} >
                   At Otic, we ignite your vision and make it our mission. Your
