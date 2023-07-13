@@ -1666,6 +1666,15 @@ nav {
 .about-ph {
   display: none;
 }
+@media screen and (max-width: 500px) {
+  .team-card .content  {
+    width: 100vw;
+    text-align: center;
+}
+.team-card {
+ grid-template-columns: repeat(auto-fit, minmax(90vw, 1fr));
+}
+}
 
 @media screen and (max-width: 768px) {
   .about-ph {
@@ -1673,6 +1682,7 @@ nav {
     display: block;
     max-width: 95vw;
   }
+ 
   .about-lp {
     display: none;
   }

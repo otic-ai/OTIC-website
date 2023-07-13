@@ -19,7 +19,8 @@ const Mission = () => {
               <div className="heading-2">
                 <b className="mission-is-to-container">
                   
-                  <span className="mission-is-to-container1" style={{fontSize:'1.8rem', marginTop:'10vh'}}>
+                  <span className="mission-is-to-container1" style={{fontSize:'1.8rem', marginTop:'10vh',
+            overflowWrap:'unset'}}>
                    
                       Mission Is To Bring The Power  Of  Al  To  Every  Business
                   
