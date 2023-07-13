@@ -3,7 +3,7 @@ import React from 'react'
 const Mission = () => {
   return (
     <section id='mission'>
-      <div style={{position: 'relative'}}>
+      <div  style={{position: 'relative'}}>
         <div className="otic-child" />
       <div className="section">
         <div className="divrow">
@@ -25,7 +25,7 @@ const Mission = () => {
                   
                     <div style={{height:'8vh'}}></div>
                     <div className="p">
-                <div className="at-otic-we" style={{color:'grey'}} >
+                <div className="at-otic-we" style={{color:'grey', flexDirection:'column'}} >
                   At Otic, we ignite your vision and make it our mission. Your
                   success is our driving force, and our client-centric approach
                   ensures that your unique challenges, goals, and values are at
@@ -33,6 +33,7 @@ const Mission = () => {
                   hand-in-hand with you to craft personalized solutions that
                   deliver measurable results and create lasting value. Your
                   triumph becomes our triumph.
+                
                 </div>
                 <div className="about-us-wrapper">
                   

@@ -161,7 +161,7 @@ width: 15.625rem;
 }
 .about-us-wrapper {
   position: absolute;
-  top: 8.94rem;
+  top: 14.94rem;
   left: 0;
   border-radius: var(--br-9xs);
   background-color: var(--color-orange);
@@ -1660,8 +1660,22 @@ nav {
 .unlocking-thel {
   max-width: 50vw;
 }
+.about-lp {
+  display: block;
+}
+.about-ph {
+  display: none;
+}
 
 @media screen and (max-width: 768px) {
+  .about-ph {
+   position: relative;
+    display: block;
+    max-width: 95vw;
+  }
+  .about-lp {
+    display: none;
+  }
   .unlocking-thel {
     max-width: 90vw;
   }
