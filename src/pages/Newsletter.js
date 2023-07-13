@@ -32,7 +32,7 @@ const Newsletter = () => {
   <button type="submit" style={{backgroundColor: 'orange', height:'60px',borderColor:'orange', width:'100px',borderRadius:'4px'}}>Submit</button>
 </form> 
     </div>
-  <div style={{height:'80px'}}></div>
+  <div style={{height:'180px'}}></div>
 </div>
   )
 }

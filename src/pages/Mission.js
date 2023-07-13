@@ -15,22 +15,17 @@ const Mission = () => {
           />
           <div className="divabout-section-item">
             <div className="divsection-title">
-              <div className="small-about" style={{fontSize:'1.1rem'}}>About Us</div>
+
               <div className="heading-2">
                 <b className="mission-is-to-container">
-                  <span className="mission-is-to-container1" style={{fontSize:'1.8rem'}}>
+                  
+                  <span className="mission-is-to-container1" style={{fontSize:'1.8rem', marginTop:'10vh'}}>
                    
                       Mission Is To Bring The Power Of Al To Every Business
                   
-                    <div style={{height:'6vh'}}></div> 
-                  </span>
-                </b>
-              </div>
-            </div>
-            
-            <div className="divabout-content" >
-              <div className="p">
-                <div className="at-otic-we" >
+                    <div style={{height:'6vh'}}></div>
+                    <div className="p">
+                <div className="at-otic-we" style={{color:'grey'}} >
                   At Otic, we ignite your vision and make it our mission. Your
                   success is our driving force, and our client-centric approach
                   ensures that your unique challenges, goals, and values are at
@@ -39,11 +34,19 @@ const Mission = () => {
                   deliver measurable results and create lasting value. Your
                   triumph becomes our triumph.
                 </div>
-              </div>
-              <div className="p1" />
-              <div className="about-us-wrapper">
+                <div className="about-us-wrapper">
                 <div className="about-us">About Us</div>
               </div>
+              </div> 
+                  </span>
+                </b>
+              </div>
+            </div>
+            
+            <div className="divabout-content" >
+            
+              <div className="p1" />
+              
             </div>
           </div>
         </div>
