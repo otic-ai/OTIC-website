@@ -6,14 +6,14 @@ const Hero = () => {
         <div className="div" style={{backgroundImage:'frame-34@2x.png'}}>
       <div style={{marginLeft:'10vw'}} >
         <div className="unlocking-thel" style={{fontSize:'2.1rem',marginleft:'10vw', margintop:'30vh'}}>
-          <div style={{height:'30vh'}}></div>
+          <div style={{height:'20vh'}}></div>
           Unlocking the Potential of Intelligent Technology
           <div>
             <div style={{height:'20px'}}></div>
               Ignite Your Business with Unparalleled AI-Powered Transformation and
           Data - Driven Excellence</div>
           <a href='#services'><div className="get-started" style={{backgroundColor:'orange', width:'172px',
-        borderRadius:'4px', top:'20px', gap:'10px', height:'42px',textAlign:'center'}}>Get started
+        borderRadius:'4px', top:'20px', gap:'10px',textAlign:'center'}}>Get started
    
         </div></a>   
         </div>
