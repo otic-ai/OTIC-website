@@ -371,7 +371,7 @@ width: 15.625rem;
 .news .content {
   border-radius: 0.625rem;
 background-color: #FFF;
-min-height: 500px;
+height: 600px;
 max-height: 800px;
 
 }
