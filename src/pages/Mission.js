@@ -21,9 +21,9 @@ const Mission = () => {
                   
                   <span className="mission-is-to-container1" style={{fontSize:'1.8rem', marginTop:'10vh'}}>
                    
-                      Mission Is To Bring The Power Of Al To Every Business
+                      Mission Is To Bring The Power  Of  Al  To  Every  Business
                   
-                    <div style={{height:'6vh'}}></div>
+                    <div style={{height:'8vh'}}></div>
                     <div className="p">
                 <div className="at-otic-we" style={{color:'grey'}} >
                   At Otic, we ignite your vision and make it our mission. Your
@@ -35,6 +35,7 @@ const Mission = () => {
                   triumph becomes our triumph.
                 </div>
                 <div className="about-us-wrapper">
+                  
                 <div className="about-us">About Us</div>
               </div>
               </div> 

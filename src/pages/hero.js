@@ -4,20 +4,22 @@ const Hero = () => {
   return (
     <section id='home'>
         <div className="div" style={{backgroundImage:'frame-34@2x.png'}}>
-      <div className="unlocking-the-potential-of-int-wrapper">
-        <div className="unlocking-the-potential" style={{fontSize:'2.1rem'}}>
+      <div style={{marginLeft:'10vw'}} >
+        <div className="unlocking-thel" style={{fontSize:'2.1rem',marginleft:'10vw', margintop:'30vh'}}>
+          <div style={{height:'30vh'}}></div>
           Unlocking the Potential of Intelligent Technology
+          <div>
+            <div style={{height:'20px'}}></div>
+              Ignite Your Business with Unparalleled AI-Powered Transformation and
+          Data - Driven Excellence</div>
+          <a href='#services'><div className="get-started" style={{backgroundColor:'orange', width:'172px',
+        borderRadius:'4px', top:'20px', gap:'10px', height:'42px',textAlign:'center'}}>Get started
+   
+        </div></a>   
         </div>
       </div>
-      <div className="get-started-wrapper">
-        <a href='#services'><div className="get-started">Get started</div></a>
-      </div>
-      <div className="ignite-your-business-with-unpa-wrapper">
-        <div className="ignite-your-business">
-          Ignite Your Business with Unparalleled AI-Powered Transformation and
-          Data - Driven Excellence
-        </div>
-      </div>
+      
+    
       <div className="divrating-area">
         <div className="divrating">
           <div className="starsvg">

@@ -1391,9 +1391,8 @@ min-height: 20rem;
   line-height: 3.75rem;
 }
 .get-started-wrapper {
-  position: absolute;
-  top: 27.25rem;
-  left: 8.25rem;
+  position: relative;
+
   border-radius: var(--br-9xs);
   background-color: #faa51a;
   width: 10.75rem;
@@ -1415,9 +1414,7 @@ min-height: 20rem;
   flex-shrink: 0;
 }
 .ignite-your-business-with-unpa-wrapper {
-  position: absolute;
-  top: 22.19rem;
-  left: 7.63rem;
+  
   display: flex;
   flex-direction: row;
   padding: var(--padding-3xs);
@@ -1660,8 +1657,14 @@ nav {
 .services-control {
   display: none;
 }
+.unlocking-thel {
+  max-width: 50vw;
+}
 
 @media screen and (max-width: 768px) {
+  .unlocking-thel {
+    max-width: 90vw;
+  }
   .services-control {
     display: block;
   }
