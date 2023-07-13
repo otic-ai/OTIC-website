@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <section id='home'>
+    <section id='home' style={{height:'80vh'}}>
         <div className="div" style={{backgroundImage:'frame-34@2x.png'}}>
       <div style={{marginLeft:'10vw'}} >
         <div className="unlocking-thel" style={{fontSize:'2.1rem',marginleft:'10vw', margintop:'30vh'}}>
