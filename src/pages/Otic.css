@@ -1668,7 +1668,7 @@ nav {
 }
 @media screen and (max-width: 500px) {
   .team-card .content  {
-    width: 100vw;
+    width: 95vw;
     text-align: center;
 }
 .team-card {
