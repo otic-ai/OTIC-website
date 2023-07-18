@@ -4,7 +4,7 @@ import { faFacebook, faLinkedin, faTwitter, faYoutube, faWhatsapp } from '@forta
 
 const Team = () => {
   return (
-    <section id='teams' style={{position:'relative'}}>
+    <section id='teams' style={{position:'relative', display:'none'}}>
        <div className='team'>Meet the Team</div>
        <div className='team-card'>
         <div className='content'>   
