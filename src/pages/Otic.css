@@ -628,7 +628,7 @@ line-height: 1.63125rem;
   background-color: rgba(128, 119, 119, 0.50);
   border-radius: 8px;
   min-width: 400px;
-min-height: 20rem;
+min-height: 24rem;
   max-width: 90vw;
   max-height: 70vh;
   border: 1px ;
@@ -1741,6 +1741,9 @@ nav {
   }
   #mission img {
     display: none;
+  }
+  #mission {
+    height: 80vh;
   }
   #mission span {
     width: 95vw;

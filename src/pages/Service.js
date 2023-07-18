@@ -9,7 +9,9 @@ const Service = () => {
      <div className="data">
       
      <div style={{height:'2vh'}}></div>
-     <div style={{fontWeight:'bold', fontSize:'2rem',zIndex:'15', color:'orange', textAlign:'center'}}>Services</div>
+     <div style={{fontWeight:'bold', fontSize:'2rem',zIndex:'15', color:'orange', textAlign:'center'}}>Services
+     <div>Our Purpose Is To Deliver Excellence In Service And Execution</div>
+     </div>
      <div className='card'>
        <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
@@ -18,7 +20,7 @@ const Service = () => {
       <div style={{height:'20px', }}></div>
        <div className='service-body'>Unleash your organization's full potential with our visionary AI strategies, custom-tailored to your unique goals and aspirations.</div>
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+     
          </div>
       <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
@@ -28,7 +30,7 @@ const Service = () => {
        <div className='service-body'>Our consultants help organizations develop AI governance frameworks, implement ethical guidelines, and address issues of bias, fairness, and privacy
        </div>
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+     
          </div>
          <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
@@ -38,7 +40,7 @@ const Service = () => {
        <div className='service-body'>Our team of data scientists embarks on an exhilarating expedition through your data, unearthing invaluable insights that become the bedrock of your decision-making process.</div>
        
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+       
        
          </div>
          <div className='content' >
@@ -49,7 +51,7 @@ const Service = () => {
        <div className='service-body'>
        Our ingenious data wizards conjure sophisticated algorithms and cutting-edge models, empowering your organization to thrive in an era defined by automation and intelligent decision-making.</div>
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+      
          </div>
          <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
@@ -62,7 +64,7 @@ const Service = () => {
 .</div>
        
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+     
          </div>
          <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
@@ -76,7 +78,7 @@ const Service = () => {
 .</div>
        
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+     
          </div> <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
       <div style={{height:'10px'}}></div>
@@ -88,7 +90,7 @@ const Service = () => {
 </div>
        
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+      
          </div> <div className='content' >
       <img src='div.service-card-thumb.svg' className='robot' />
       <div style={{height:'10px'}}></div>
@@ -100,7 +102,7 @@ const Service = () => {
 </div>
        
        <div style={{height:'30px'}}></div>
-       <div className='discover'>Discover More</div>
+      
          </div>  
          <div className='services-control' style={{height:'150px'}}></div> 
      </div>    
