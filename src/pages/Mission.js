@@ -34,12 +34,13 @@ const Mission = () => {
                   hand-in-hand with you to craft personalized solutions that
                   deliver measurable results and create lasting value. Your
                   triumph becomes our triumph.
-                
+                  <div style={{height:'0vh', color:'white'}}>jhhjhjhhj</div>
+                  <a href='#services'><div className="get-started" style={{backgroundColor:'orange', width:'172px',
+        borderRadius:'4px', top:'20px', gap:'0px',textAlign:'center'}}>About Us
+   
+        </div></a>  
                 </div>
-                <div className="about-us-wrapper">
-                  
-                <div className="about-us">About Us</div>
-              </div>
+             
               </div> 
                   </span>
                 </b>

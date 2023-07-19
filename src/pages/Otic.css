@@ -1742,9 +1742,7 @@ nav {
   #mission img {
     display: none;
   }
-  #mission {
-    height: 80vh;
-  }
+ 
   #mission span {
     width: 95vw;
   }
