@@ -29,7 +29,7 @@ const Newsletter = () => {
     onChange={handleInputChange}
     style={{width:'30vw',height:'60px',minWidth: '400px',backgroundColor: 'white',borderRadius:'8px', borderColor:'whitesmoke'}}
   />
-  <button type="submit" style={{backgroundColor: 'orange', height:'60px',borderColor:'orange', width:'100px',borderRadius:'4px'}}>Submit</button>
+  <button type="submit" style={{backgroundColor: 'orange', height:'50px',borderColor:'orange', width:'100px',borderRadius:'4px'}}>Submit</button>
 </form> 
     </div>
   <div style={{height:'180px'}}></div>
