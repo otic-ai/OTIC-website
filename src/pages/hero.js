@@ -3,9 +3,14 @@ import React from 'react'
 const Hero = () => {
   return (
     <section id='home' style={{height:'80vh'}}>
-        <div className="div" style={{backgroundImage:'frame-34@2x.png'}}>
+      
+        <div className="div" style={{backgroundImage:''}}>
+        
       <div style={{marginLeft:'10vw'}} >
-        <div className="unlocking-thel" style={{fontSize:'2.1rem',marginleft:'10vw', margintop:'30vh'}}>
+      <div className='div2'></div>
+      <div className='card'>
+       <div className='content' ></div>
+        <div className="unlocking-thel" style={{fontSize:'2.1rem',marginleft:'10vw', margintop:'30vh',fontWeight:'600'}}>
           <div style={{height:'20vh'}}></div>
           Unlocking the Potential of Intelligent Technology
           <div>
@@ -17,9 +22,7 @@ const Hero = () => {
    
         </div></a>   
         </div>
-      </div>
-      
-    
+        
       <div className="divrating-area">
         <div className="divrating">
           <div className="starsvg">
@@ -42,6 +45,10 @@ const Hero = () => {
       </div>
       <div className="horixontal-logo-1" />
       <div className="child" />
+        </div>
+      </div>
+      
+    
      
 
       </div>

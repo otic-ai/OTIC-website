@@ -4,7 +4,7 @@ import Believe from './Believe'
 
 const Service = () => {
   return (
-    <section id='services'>
+    <section id='services' style={{position:'relative'}}>
     
      <div className="data">
       
