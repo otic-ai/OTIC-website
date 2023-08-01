@@ -9,7 +9,7 @@ const Service = () => {
      <div className="data">
       
      <div style={{height:'2vh'}}></div>
-     <div style={{fontWeight:'bold', fontSize:'2rem',zIndex:'15', color:'orange', textAlign:'center'}}>Services
+     <div className='service-header' style={{fontWeight:'bold', fontSize:'2rem',zIndex:'15', color:'orange', textAlign:'center'}}>Services
      <div>Our Purpose Is To Deliver Excellence In Service And Execution</div>
      </div>
      <div className='card'>

@@ -83,6 +83,12 @@ width: 15.625rem;
   width: 600px;
   position: relative;
 }
+.service-header  {
+ 
+  grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
+  width: 600px;
+  position: relative;
+}
 
 
 
