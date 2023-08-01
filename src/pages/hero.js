@@ -23,7 +23,7 @@ const Hero = () => {
         </div></a>   
         </div>
         
-      <div className="divrating-area">
+      <div className="divrating-area" style={{display:'none'}}>
         <div className="divrating">
           <div className="starsvg">
             <img className="starsvg-icon" alt="" src="/starsvg.svg" />
@@ -43,8 +43,7 @@ const Hero = () => {
         </div>
         <b className="based-on-10000">Based on 10,000+ reviews on</b>
       </div>
-      <div className="horixontal-logo-1" />
-      <div className="child" />
+      
         </div>
       </div>
       
