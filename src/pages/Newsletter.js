@@ -16,7 +16,7 @@ const Newsletter = () => {
   };
 
   return (
-    <div className='news-letter'>
+    <div className='news-letter' style={{minHeight:'250px'}}>
     <div style={{height:'10vh'}}></div>
     <div style={{textAlign: 'center', fontSize: '40px', fontWeight:'bold'}}>Subscribe To Our News Letter</div>
     <div style={{textAlign: 'center', fontSize: '15px'}}>Subscribe For Our News Letter today and stay updated
