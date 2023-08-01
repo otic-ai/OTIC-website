@@ -87,6 +87,7 @@ width: 15.625rem;
  
   grid-template-columns: repeat(auto-fit, minmax(15.625rem, 1fr));
   width: 600px;
+  left: 30%;
   position: relative;
 }
 
@@ -1697,6 +1698,8 @@ nav {
   display: none;
 }
 @media screen and (max-width: 500px) {
+  
+
   .team-card .content  {
     width: 95vw;
     text-align: center;
@@ -1707,6 +1710,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  .service-header  {
+    left: -10%;
+  }
   .go {
     min-height: 500px;
   }
