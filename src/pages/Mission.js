@@ -3,7 +3,7 @@ import React from 'react'
 const Mission = () => {
   return (
     <section id='mission' style={{position:'relative'}}>
-      <div  style={{position: 'relative'}}>
+      <div className='go'  style={{position: 'relative'}}>
         <div className="otic-child" />
       <div className="section">
         <div className="divrow">

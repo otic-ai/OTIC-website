@@ -561,7 +561,7 @@ max-height: 800px;
 }
 .data .card {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1%;
   right: 1%;
   margin-top: 2%;
@@ -1701,6 +1701,7 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+ 
   .div {
   background-image: url(iStockputilich-1307309168-696x3922.png);
   }
@@ -1709,7 +1710,7 @@ nav {
     display: block;
     max-width: 95vw;
   }
- 
+  
   .about-lp {
     display: none;
   }
